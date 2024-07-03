@@ -1,17 +1,17 @@
-import { Form } from '../../elements/Form';
-import { Store } from '../../elements/Store';
-import { Text, Title } from '../../ui';
+import { data } from '../../../data/data';
+import { Card } from '../../elements/Card';
+import { CardContent } from '../../elements/CardContent';
+import { CardImg } from '../../elements/CardImg';
+import { CardUser } from '../../elements/CardUser';
 
 export const HomePage = () => {
-    return (
-        <section className='relative w-full'>
-            <div className='w-full mb-5 last:mb-0'>
-                <Title className='mb-2 last:mb-0'>Home Page</Title>
-                <Text>This is Home Page.</Text>
-            </div>
+    const { img, content, user } = data;
 
-            <Store />
-            <Form />
-        </section>
+    return (
+        <Card>
+            <CardImg img={img} className='mb-5 last:mb-0' />
+            <CardContent content={content} className='mb-5 last:mb-0' />
+            <CardUser user={user} />
+        </Card>
     );
 };

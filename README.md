@@ -1,22 +1,15 @@
-# React Template
+# React NTF Preview Card
 
-This is **React Template** for development. Technolgies used: **React, TypeScript, Redux Toolkit, Tailwind CSS.**
+[Project Demo](https://dimarogkov.github.io/react-nft-preview-card)
 
 ## Installation Steps
 
 -   Download the repository
--   Use the 18th version of Node.js
 -   Run `npm i`
 -   Run `npm run start`
 
-## File Structure
+## Technolgies used
 
--   components
-    -   elements
-    -   pages
-    -   ui
--   helpers
--   store
--   types
-    -   enums
-    -   interfaces
+-   React
+-   TypeScript
+-   Tailwind CSS
